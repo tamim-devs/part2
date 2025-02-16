@@ -10,8 +10,8 @@ const App = () => {
       <Router>
         <Routes>
           {/* Use element prop to define the component */}
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<LoginPage />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<LoginPage />} />
         </Routes>
       </Router>
     </AuthProvider>

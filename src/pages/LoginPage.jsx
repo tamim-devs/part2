@@ -23,7 +23,7 @@ const LoginPage = () => {
     login();
 
     // Navigate to the home page after successful login
-    navigate("/");
+    navigate("/home");
   };
 
   return (

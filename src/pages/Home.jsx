@@ -9,7 +9,7 @@ const Home = () => {
 
   const handleLogout = () => {
     logout();
-    navigate("/login"); // Navigate to login page after logout
+    navigate("/"); // Navigate to login page after logout
   };
 
   return (
